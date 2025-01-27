@@ -19,6 +19,14 @@ namespace Pet_project_audishop.Data.mocks
                         isFavourite=true,
                         availble = true,
                         Categories = _categoriesCars.AllCategories.First()
+                    },
+                    new Car {
+                        name = "Audi A7",
+                        shortDesc="",longDesc="",
+                        img="",price = 65000,
+                        isFavourite=true,
+                        availble = true,
+                        Categories = _categoriesCars.AllCategories.First()
                     }
                 };
             } 
